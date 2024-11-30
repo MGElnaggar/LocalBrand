@@ -24,7 +24,7 @@ function ItemDetails() {
   const sizes = ["S", "M", "L", "XL", "XXL"];
 
   return (
-    <>
+    <div style={{display:"flex"}}>
       {/* display all non selected images for the item */}
       <div className={style.mainSideImage}>
         <aside>
@@ -186,7 +186,7 @@ function ItemDetails() {
           <SmallButton smallButtonLabel={"Add To Basket"} />
         </div>
       </section>
-    </>
+    </div>
   );
 }
 export default ItemDetails;
