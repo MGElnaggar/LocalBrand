@@ -36,3 +36,12 @@ body {
   width: 93%;
   position: relative;
 }
+
+.qtySelector button{
+  font-size: 1.6rem;
+}
+
+.qtySelector span{
+  font-size: 1.6rem;
+  color: white;
+}
